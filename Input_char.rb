@@ -25,15 +25,4 @@ class Input_Char
 
 end
 
-args = ["Y", "y", "N", "n"]
 
-input_char = Input_Char.new
-
-input = input_char.readline("Type: ", args)
-
-puts input
-
-puts "-------------- [ History Commands ] ------------------"
-input_char.history_cmd.each do |cmd|
-  puts cmd 
-end
