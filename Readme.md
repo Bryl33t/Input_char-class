@@ -26,7 +26,7 @@ puts input
 ```
 
 
-##History of commands
+## History of commands
 
 ```ruby
 
